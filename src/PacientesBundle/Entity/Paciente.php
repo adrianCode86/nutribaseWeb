@@ -12,8 +12,7 @@ class Paciente{
     private $numeroTelefono;
     private $fechaNacimiento;
     private $sexo;
-    private $embarazada;
-    
+   
     
     public function getNombre(){
         return $this->nombre;
@@ -80,11 +79,5 @@ class Paciente{
         $this->sexo=$sexo;
     }
     
-    public function isEmbarazada(){
-        return $this->embarazada;
-    }
     
-    public function setEmbarazada($embarazada){
-        $this->embarazada=$embarazada;
-    }
 }
